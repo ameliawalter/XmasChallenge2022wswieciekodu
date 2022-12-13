@@ -27,8 +27,6 @@ children_addresses = [("Jasiu",
 
                                                                                                      "02-326"))]
 
-
-
 address_fields = []
 for i in children_addresses:
     for j in i[2:]:
@@ -39,8 +37,3 @@ for address in children_addresses:
         if field in address:
             print(address[0], address[1])
             print(field[0], field[1], '/', str(field[2]), '\n', field[3], field[4], '\n', '-', '\n')
-
-
-
-
-
